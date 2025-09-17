@@ -122,9 +122,9 @@ function resgatarPremio() {
   document.body.innerHTML = `
     <canvas id="fireworks-canvas"></canvas>
     <div class="premio-card">
-      <h1>🎉 Parabéns! 🎉</h1>
-      <p>Você foi convidado para ser padrinho!</p>
-      <p>Acesse o link especial ou fale com a família para receber seu presente!</p>
+      <img src="./assets/Convite.png" alt="Poof dos Padrinhos Mágicos"
+        style="margin-top:24px;width:600px;max-width:90vw;display:block;margin-left:auto;margin-right:auto;image-rendering:auto;">
+      <p style="font-size:1.2em;box-shadow:#fff;margin-top:18px;">Seu presente mágico está garantido! 🧚‍♂️✨</p>
     </div>
     <img id="poof-baby" src="https://www.pngkit.com/png/full/109-1095839_f-poof-poof-los-padrinos-magicos.png" alt="Poof voando" style="position:fixed;left:50vw;top:40vh;width:120px;z-index:1001;">
   `;
