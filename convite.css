@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f6fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  max-width: 1920px;
+  max-height: 1080px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.card {
+  background: #fff;
+  padding: 32px 48px;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+h1 {
+  color: #2d3436;
+  margin-bottom: 16px;
+}
+p {
+  color: #636e72;
+  font-size: 1.2em;
+  margin-bottom: 32px;
+}
+.btn-sim {
+  background: #00b894;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  margin-right: 16px;
+  transition: background 0.2s;
+}
+.btn-sim:hover {
+  background: #019875;
+}
+.btn-nao {
+  position: absolute;
+  background: #d63031;
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: top 0.2s, left 0.2s;
+}
+
+    #fireworks-canvas {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      pointer-events: none;
+      z-index: 999;
+    }
+    .premio-card {
+      background: #fff;
+      padding: 40px 60px;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+      text-align: center;
+      position: relative;
+      z-index: 1000;
+      margin-top: 10vh;
+    }
+    .premio-card h1 {
+      color: #00b894;
+      margin-bottom: 24px;
+    }
+    .premio-card p {
+      color: #636e72;
+      font-size: 1.3em;
+      margin-bottom: 24px;
+    }
